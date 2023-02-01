@@ -1,6 +1,6 @@
 <?php
 
-    class Addres{
+    class Address{
         protected string $logradouro;
         protected string $numero;
         protected string $complemento;

@@ -27,8 +27,6 @@
         public function __ToString(){
             return "<br>Nome:  ".$this->nome."<br>Telefone:  ".$this->tele."<br>Aniversário:  ".$this->nasci."<br>CPF: ".$this->cpf;
         }
-
-
     }//Fim da classe humanos
 
 ?>
