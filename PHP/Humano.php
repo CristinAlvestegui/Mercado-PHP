@@ -2,7 +2,6 @@
     require_once('Address.php');
 
     class Humano{
-
         protected string $nome;
         protected string $tele;
         protected string $nasci;
@@ -12,8 +11,9 @@
         public function __construct(string $nome, string $tele, string $nasci, string $cpf, Address $address){
             $this->nome       = $nome;
             $this->tele       = $tele;
-            $this->address    = $address;
-            $this->nasci      = $nasci; 
+            $this->nasci      = $nasci;
+            $this->cpf        = $cpf;
+            $this->address    = $address; 
         }
 
         public function __get(string $qualQuer){

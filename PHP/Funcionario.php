@@ -23,7 +23,7 @@
         }
 
         public function __ToString(){
-            return "<br>Código:  ".$this->codigo."<br>Sexo:  ".$this->sexo."<br>Função:  ".$this->funcao."<br>Salário: ".$this->salar;
+            return "<br>Código:  ".$this->codigo."<br>Sexo:  ".$this->sexo."<br>Função:  ".$this->funcao."<br>Salário: ".$this->salar."R$";
         }
 
         /*Somente gerentes podem cadastrar funcionarios

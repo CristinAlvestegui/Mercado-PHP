@@ -18,8 +18,9 @@
             $this->qualQuer = $valor;
         }
 
-        public function __ToString(){
+        public function __ToString() : string{
             return "<br>Marca:  ".$this->marca."<br>Tipo:  ".$this->tipo."<br>Gramas:  ".$this->grama;
         }
+
     }//Fim da classe produtos
 ?>

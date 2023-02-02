@@ -2,10 +2,11 @@
     require_once('Produtos.php');
     //aqui também devemos chamar a classe Compras para confirmar?
     class Estoque{
+        //Declarando variáveis
+        protected Produtos $produ;
         protected int $quanti;
         protected float $preco;
-        protected Produtos $produ;
-
+    
         public function __contruct(Produtos $produ, int $quanti, float $preco){
             $this->produ = $produ;
             $this->quanti = $quanti;
@@ -20,8 +21,8 @@
             $this->qualQuer = $valor;
         }
 
-        public function __ToString(){
-            return "<br>Quantidade:  ".$this->quanti."<br>Preço:  ".$this->preco;
+        public function __ToString() : string{
+            return "<br>Quantidade:  ".$this->quanti."<br>Preço:  ".$this->preco."R$";
         }
 
         public function control(){
