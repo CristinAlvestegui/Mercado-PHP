@@ -4,7 +4,7 @@
         protected string $tipo;
         protected int $grama;
 
-        public function __construct(string $marca, $string $tipo, int $grama){
+        public function __construct(string $marca, string $tipo, int $grama){
             $this->marca = $marca;
             $this->tipo  = $tipo;
             $this->grama = $grama;
@@ -21,6 +21,7 @@
         public function __ToString() : string{
             return "<br>Marca:  ".$this->marca."<br>Tipo:  ".$this->tipo."<br>Gramas:  ".$this->grama;
         }
-
     }//Fim da classe produtos
+
+    
 ?>

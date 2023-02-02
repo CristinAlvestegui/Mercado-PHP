@@ -8,9 +8,9 @@
         protected float $preco;
     
         public function __contruct(Produtos $produ, int $quanti, float $preco){
-            $this->produ = $produ;
+            $this->produ  = $produ;
             $this->quanti = $quanti;
-            $this->preco = $preco;
+            $this->preco  = $preco;
         }//Fim do construtor
 
         public function __get(string $qualQuer){

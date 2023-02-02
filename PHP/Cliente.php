@@ -24,7 +24,7 @@
         }
 
         public function media(){
-            /* e a cada 10 compras recebe uma média dos valores gastos para uma nova 
+            /* a cada 10 compras recebe uma média dos valores gastos para uma nova 
             compra no supermercado 
             quaCom deve ser um contador para cada nota fiscal, cada nota fiscal = 1ma compra.
             quando chegar a 10 fazer media do total de compras.*/
