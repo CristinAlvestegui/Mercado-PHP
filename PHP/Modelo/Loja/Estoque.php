@@ -3,9 +3,9 @@
     //aqui também devemos chamar a classe Compras para confirmar?
     class Estoque{
         //Declarando variáveis
-        protected Produtos $produ;
-        protected int $quanti;
-        protected float $preco;
+        private Produtos $produ;
+        private int $quanti;
+        private float $preco;
     
         public function __contruct(Produtos $produ, int $quanti, float $preco){
             $this->produ  = $produ;

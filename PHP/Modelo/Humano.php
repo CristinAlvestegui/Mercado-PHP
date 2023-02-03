@@ -1,4 +1,6 @@
 <?php
+    namespace Mercado\PHP\Modelo;
+
     require_once('Address.php');
 
     class Humano{
@@ -16,16 +18,16 @@
             $this->address    = $address; 
         }
 
-        public function __get(string $qualQuer){
+        public function __get(string $qualQuer) : string{
             return $this->$qualQuer;
         }
 
-        public function __set(string $qualQuer, string $valor){
+        public function __set(string $qualQuer, string $valor) :void{
             $this->qualQuer = $valor;
         }
 
         public function __ToString(){
-            return "<br>Nome:  ".$this->nome."<br>Telefone:  ".$this->tele."<br>Aniversário:  ".$this->nasci."<br>CPF: ".$this->cpf;
+            return "<br>Nome:  ".{$this->nome}."<br>Telefone:  ".{$this->tele}."<br>Aniversário:  ".{$this->nasci}."<br>CPF: ".{$this->cpf};
         }
     }//Fim da classe humanos
 

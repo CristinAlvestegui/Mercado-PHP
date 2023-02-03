@@ -1,4 +1,6 @@
 <?php
+    namespace Mercado\PHP\Modelo;
+
     require_once('Address.php');
 
     class Cliente extends Humano{
